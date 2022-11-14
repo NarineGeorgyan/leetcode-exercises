@@ -66,3 +66,6 @@ function LinkedListFactory() {
 
   function toString() {}
 }
+const newList = new LinkedListFactory();
+newList.append(1);
+console.log(newList);

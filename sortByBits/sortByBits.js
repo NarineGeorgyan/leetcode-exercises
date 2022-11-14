@@ -14,13 +14,11 @@ var sortByBits = function (arr) {
     }
     a.push(count);
   }
-  console.log(a);
+
   for (let k = 0; k < a.length; k++) {
     if (a[k] == 1) {
       sortByBitsArr.push(arr[k]);
     }
   }
-  console.log(sortByBitsArr);
-  console.log(arr);
 };
 console.log(sortByBits([1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1]));
